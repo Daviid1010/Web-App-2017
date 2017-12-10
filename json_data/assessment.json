@@ -1,0 +1,121 @@
+[
+  {
+    "web_applications": [
+      {
+        "ca_test": [
+          {
+            "due_date": "10/10/2017",
+            "time": "1:00pm",
+            "weighting": "15%"
+          }
+        ],
+        "presentation": [
+          {
+            "due_date": "16/11/2017",
+            "time": "1:00pm",
+            "weighting": "25%"
+          }
+        ],
+        "project": [
+          {
+            "due_date": "12/12/2017",
+            "time": "11:00pm",
+            "weighting": "60%"
+          }
+        ]
+      }
+    ],
+    "programming": [
+      {
+        "ca_test_formative": [
+          {
+            "due_date": "10/10/2017",
+            "time": "1:00pm",
+            "weighting": "0%"
+          }
+        ],
+        "project": [
+          {
+            "due_date": "05/12/2017",
+            "time": "11:55pm",
+            "weighting": "60%"
+          }
+        ],
+        "ca_test": [
+          {
+            "due_date": "14/12/2017",
+            "time": "11:00pm",
+            "weighting": "40%"
+          }
+        ]
+      }
+    ],
+    "databases": [
+      {
+        "ca_test_one": [
+          {
+            "due_date": "10/10/2017",
+            "time": "1:00pm",
+            "weighting": "20%"
+          }
+        ],
+        "project": [
+          {
+            "due_date": "8/12/2017",
+            "time": "11:55pm",
+            "weighting": "15%"
+          }
+        ],
+        "ca_test_two": [
+          {
+            "due_date": "14/12/2017",
+            "time": "11:00pm",
+            "weighting": "15%"
+          }
+        ],
+        "exam": [
+          {
+            "due_date": "13/01/2018",
+            "time": "10:00am",
+            "weighting": "50%"
+          }
+        ]
+      }
+    ],
+    "project_management": [
+      {
+        "ca_labs": [
+          {
+            "due_date": "Friday weekly",
+            "time": "1:00pm",
+            "weighting": "4% each"
+          }
+        ],
+        "exam": [
+          {
+            "due_date": "4/01/2018",
+            "time": "10:00am",
+            "weighting": "50%"
+          }
+        ]
+      }
+    ],
+    "fba": [
+      {
+        "project": [
+          {
+            "due_date": "10/12/2017",
+            "time": "11:55pm",
+            "weighting": "50%"
+          }
+        ],
+        "exam": [
+          {
+            "due_date": "10/01/2018",
+            "time": "2:00pm",
+            "weighting": "50%"
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,105 @@
+
+#head {
+    width: 100%;
+    height: 100px;
+    background-color: #BF9D01;
+}
+
+#center {
+    height: 75em;
+    text-align: center;
+    color: #464777;
+}
+
+#jumboHead {
+    display: none;
+    font-size: 4em;
+    padding-top: 10px;
+}
+#signIn {
+    color: #464777;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 40px;
+    padding-left: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=button] {
+    color: #464777;
+    border-color: #BF9D01;
+    background-color: white;
+}
+
+input[type=submit] {
+    color: #464777;
+    border-color: #BF9D01;
+    background-color: white;
+}
+
+#timetable {
+    display: none;
+    float: right;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+#assessments {
+    display: none;
+}
+
+#assessmentTbl {
+    font-size: 2em;
+}
+
+
+.lecture {
+    background-color: blue;
+    color: white;
+}
+
+.lab {
+    background-color: red;
+    color: white;
+}
+
+table   {
+    background-color: #464777;
+    background-color: #464777;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+th  {
+    color:#464777;
+}
+tr {
+    background-color: white;
+}
+
+.day {
+    width: 10%;
+}
+
+
+td {
+    font-size: 12px;
+}
+
+.noClass {
+    background-color: #464777;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #BF9D01;
+}
+
+#toprow {
+    background-color: #464777;
+    color: white;
+}

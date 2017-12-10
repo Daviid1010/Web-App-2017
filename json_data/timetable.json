@@ -1,0 +1,60 @@
+[{
+    "web_applications": [{
+      "lecture1": [{
+        "day" :"Monday",
+        "time":"1:00pm-3:00pm"
+      }],
+      "lecture2": [{
+        "day":"Tuesday",
+        "time":"1:00pm-3:00pm"
+      }],
+      "lab1": [{
+        "day":"Wednesday",
+        "time":"11:00am-1:00pm"
+      }],
+      "lab2": [{
+        "day":"Thursday",
+        "time":"3:00pm-5:00pm"
+      }]
+    }],
+    "programming": [{
+      "lecture1": [{
+        "day" :"Wednesday",
+        "time":"9:00am-11:00am"
+      }],
+      "lab1": [{
+        "day":"Thursday",
+        "time":"11:00am-1:00pm"
+      }]
+    }],
+    "fba": [{
+      "lecture1": [{
+        "day" :"Thursday",
+        "time":"9:00am-11:00am"
+      }],
+      "lab1": [{
+        "day":"Monday",
+        "time":"11:00am-12:00pm"
+      }]
+    }],
+    "project_management": [{
+      "lecture1": [{
+        "day" :"Friday",
+        "time":"1:00pm-3:00pm"
+      }],
+      "lab1": [{
+        "day":"Tuesday",
+        "time":"4:00pm-5:00pm"
+      }]
+    }],
+    "databases": [{
+      "lecture1": [{
+        "day" :"Monday",
+        "time":"3:00pm-5:00pm"
+      }],
+      "lab1": [{
+        "day":"Tuesday",
+        "time":"3:00pm-4:00pm"
+      }]
+    }]
+  }]

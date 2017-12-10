@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NCI Computing Interactive Timetable</title>
+    <link rel="stylesheet" href="css/customstyle.css" type="text/css"/>
+</head>
+<body>
+
+    <div id="head">
+        <span id="signIn">username: <input type="text" id="username"/> password: <input type="text" id="password"/> <input type="button" value="Sign In" id="submit"/> <input type="button" value="Create" id="create"/></span>
+    </div>
+
+    <div id="center">
+        <h1 id="jumboHead">NCI Interactive Timetable</h1>
+        <div id="timetable">
+            <table id="tab">
+                <tr>
+                    <th>Time:</th>
+                    <th>9:00-10:00</th>
+                    <th>10:00-11:00</th>
+                    <th>11:00-12:00</th>
+                    <th>12:00-13:00</th>
+                    <th>13:00-14:00</th>
+                    <th>14:00-15:00</th>
+                    <th>15:00-16:00</th>
+                    <th>16:00-17:00</th>
+                </tr>
+                <tr>
+                    <td class="day">Monday</td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td id="fbalab" class="fba lab"></td>
+                    <td class="noClass"></td>
+                    <td id="webapplecture1" class="webapp lecture" colspan="2"></td>
+                    <td id="databaseslecture1" class="databases lecture" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="day">Tuesday</td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td id="webapplecture2" class="webapp lecture" colspan="2"></td>
+                    <td id="databaseslab1" class="databases lab"></td>
+                    <td id="pmlab" class="pm lab"></td>
+                </tr>
+                <tr>
+                    <td class="day">Wednesday</td>
+                    <td id="ooplecture1" class="oop lecture" colspan="2"></td>
+                    <td id="webapplab1" class="webapp lab" colspan="2"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                </tr>
+                <tr>
+                    <td class="day">Thursday</td>
+                    <td id="fbalecture" class="fba lecture" colspan="2"></td>
+                    <td id="ooplab" class="oop lab" colspan="2"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td id="webapplab2" class="webapp lab" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="day">Friday</td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                    <td id="pmlecture" class="pm lecture" colspan="2"></td>
+                    <td class="noClass"></td>
+                    <td class="noClass"></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div id="assessments">
+            <table id="assessmentTbl">
+                <tr id="toprow">
+                    <td>Assessment</td>
+                    <td>Due Date</td>
+                    <td>Time</td>
+                    <td>Weighting</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+
+    <script src="jQuery/jQuery.js"></script>
+    <script src="js/customscript.js"></script>
+</body>
+</html>
